@@ -6,10 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "scrape": "node scraper.js"
   },
   "dependencies": {
     "next": "16.1.1",
+    "puppeteer": "^24.34.0",
     "react": "19.2.3",
     "react-dom": "19.2.3"
   },
